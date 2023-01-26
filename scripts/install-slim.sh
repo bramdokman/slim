@@ -11,7 +11,7 @@ function get_slim() {
   local VER=""
 
   # Get the current released tag_name
-  VER=$(1.39.0)
+  VER="1.39.0"
 
   if [ -n "${VER}" ]; then
     URL="https://downloads.dockerslim.com/releases/${VER}"
